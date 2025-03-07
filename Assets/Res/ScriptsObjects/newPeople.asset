@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fabf2440bcef3364e961e64e2149bd6d, type: 3}
+  m_Name: newPeople
+  m_EditorClassIdentifier: 
+  runTimeData:
+    canHitBack: 0
+    isInvincible: 0
+    target: {fileID: 0}
+    canEscape: 1
+    currentHealth: -310
+    currentPower: 61.678986
+    rangedAttackList:
+    - isCD: 0
+      radius: 10
+      costPower: 10
+      crossTime: 0.5
+      maxCombo: 1
+      exitTime: 0.15
+      cd: 4
+      force:
+      - 10
+      comboTime: []
+      exitDis: []
+      attackCheckTime: []
+      startClip: {fileID: 8300000, guid: 0fffa48ae777bf648a6c802f610d91b0, type: 3}
+      actionTimeClip: []
+    normalAttackList:
+    - isCD: 0
+      radius: 2.7
+      costPower: 30
+      crossTime: 0.35
+      maxCombo: 4
+      exitTime: 0.1
+      cd: 6
+      force:
+      - 3
+      - 5
+      - 8
+      - 8
+      comboTime:
+      - 0.4
+      - 0.6
+      - 0.4
+      - 0
+      exitDis:
+      - 3
+      - 4
+      - 4
+      - 3
+      attackCheckTime:
+      - 0.33
+      - 0.6
+      - 0.4
+      - 0.53
+      startClip: {fileID: 0}
+      actionTimeClip:
+      - {fileID: 8300000, guid: 0d6dc35c38370414eb65a79891e2898c, type: 3}
+      - {fileID: 8300000, guid: 570d1578c42b1cf439826d67dc1410b4, type: 3}
+      - {fileID: 8300000, guid: 28b7b213c55997b49a80fd549e3af569, type: 3}
+      - {fileID: 8300000, guid: 49bafa19c0f305e498687f716f026d63, type: 3}
+    - isCD: 0
+      radius: 2.7
+      costPower: 40
+      crossTime: 0.35
+      maxCombo: 3
+      exitTime: 0.1
+      cd: 6
+      force:
+      - 4
+      - 4
+      - 8
+      comboTime:
+      - 0.6
+      - 0.8
+      - 0
+      exitDis:
+      - 3
+      - 4
+      - 4
+      attackCheckTime:
+      - 0.41
+      - 0.41
+      - 0.6
+      startClip: {fileID: 0}
+      actionTimeClip:
+      - {fileID: 8300000, guid: 05bfa3d5fdc773843989c822004e246f, type: 3}
+      - {fileID: 8300000, guid: fddbdcd2cb0946d409f3af9886d42c1f, type: 3}
+      - {fileID: 8300000, guid: 46e2075ea87092e4cb362a792636be08, type: 3}
+    - isCD: 1
+      radius: 3.5
+      costPower: 50
+      crossTime: 0.35
+      maxCombo: 3
+      exitTime: 0.1
+      cd: 6
+      force:
+      - 8
+      - 4
+      - 4
+      comboTime:
+      - 2
+      - 1
+      - 0
+      exitDis:
+      - 4
+      - 3
+      - 3
+      attackCheckTime:
+      - 1.36
+      - 0.76
+      - 0.76
+      startClip: {fileID: 8300000, guid: 0fffa48ae777bf648a6c802f610d91b0, type: 3}
+      actionTimeClip:
+      - {fileID: 8300000, guid: baf929bcc940d72448b609833e2d9918, type: 3}
+      - {fileID: 8300000, guid: 570d1578c42b1cf439826d67dc1410b4, type: 3}
+      - {fileID: 8300000, guid: baf929bcc940d72448b609833e2d9918, type: 3}
+  normalData:
+    maxPowerNum: 200
+    powerGetSpeed: 5
+    humanEscapePowerNum: 10
+    escapeCD: 15
+    toTargetDisBlow_JumpBack: 2.5
+    crossTime_JumpBack: 0.3
+    allContineTime_JumpBack: 1.1
+    chooseAttackNum: 4
+    backCheckDis: 3
+    backCheckDisMax: 7
+    backCheckDisMin: 5
+    backCheckTimeMin: 2
+    backCheckTimeMax: 5
+    crossTime_Defend: 0.35
+    allContineTime_Defend: 4
+    defendCostPower: 2
+    defendendTime: 0.2

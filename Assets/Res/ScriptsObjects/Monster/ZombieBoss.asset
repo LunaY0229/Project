@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe3483af1d4dff42bebd2ae2c842d85, type: 3}
+  m_Name: ZombieBoss
+  m_EditorClassIdentifier: 
+  datas:
+    canHitBack: 0
+    power: 72
+    powerCostMulti: 0.2
+  skillDatas:
+  - weight: 10
+    skillName: bite
+    crossTime: 0.1
+    CanPlay: 0
+    SkillCD: 40
+    SkillBefore: 0.18
+    SkillLast: 0.1
+    SkillAllTime: 2
+    startClip: {fileID: 0}
+    PlayEffectTime: 0.4
+    HasDeamge: 1
+    IsCheckDeamge: 1
+    demageTime: 0.4
+    SkillCheckRadius: 2.54
+    SkillCheckForwardOffset: 2.15
+    SkillCheckRightOffset: 0
+    SkillCheckUpOffset: 1
+    DeamgeNum: 10
+    DemageForce: 1
+  - weight: 10
+    skillName: roar
+    crossTime: 0.1
+    CanPlay: 0
+    SkillCD: 40
+    SkillBefore: 0.18
+    SkillLast: 0.1
+    SkillAllTime: 2
+    startClip: {fileID: 8300000, guid: 028a76e8babd1c949970f5da5f2260ad, type: 3}
+    PlayEffectTime: 0.55
+    HasDeamge: 0
+    IsCheckDeamge: 0
+    demageTime: 0.4
+    SkillCheckRadius: 2.54
+    SkillCheckForwardOffset: 2.15
+    SkillCheckRightOffset: 0
+    SkillCheckUpOffset: 1
+    DeamgeNum: 10
+    DemageForce: 1
+  - weight: 10
+    skillName: Jump
+    crossTime: 0.1
+    CanPlay: 0
+    SkillCD: 40
+    SkillBefore: 0.18
+    SkillLast: 0.1
+    SkillAllTime: 10
+    startClip: {fileID: 8300000, guid: 028a76e8babd1c949970f5da5f2260ad, type: 3}
+    PlayEffectTime: 0.4
+    HasDeamge: 1
+    IsCheckDeamge: 0
+    demageTime: 0.4
+    SkillCheckRadius: 4
+    SkillCheckForwardOffset: 0
+    SkillCheckRightOffset: 0
+    SkillCheckUpOffset: 1
+    DeamgeNum: 10
+    DemageForce: 5
+  hitData:
+    hitTime: 0.5
+    hitMoveSpeed: 2

@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e6fd7f0ff296549a8bb6d177dc8776, type: 3}
+  m_Name: ANBi
+  m_EditorClassIdentifier: 
+  moveMult: 0
+  moveMult_Origin: 0
+  dodgeMult: 0
+  dodgeMult_Origin: 0
+  playerAttackData:
+    resetAttackIndexTime: 0.3
+    canExit: 0
+    canAttack: 0
+    allAttack:
+    - AttackName: Anbi_Normal_1
+      vfxName: 
+      hitVfxName: FX_hit_04
+      crossTime: 0.1
+      AttackBefore: 0.1
+      AttackCheckOffect: 1
+      AttackSharkeCameraForce: 0.05
+      AttackLast: 0.1
+      AttackAllTime: 0.39
+      AttackForwardOffect: 1
+      AttackUpOffect: 1
+      AttackRadius: 2
+      StopTime: 0.05
+      AttackForce: 2
+      AttackDemage: 10
+      playVFXTime:
+      - 0.15
+      hitClip:
+      - {fileID: 8300000, guid: 4b9c1d6918c16cf4ab07098aa01ef840, type: 3}
+      - {fileID: 8300000, guid: be7658528d067aa4ab612584504b3060, type: 3}
+      - {fileID: 8300000, guid: 723f33a93b83587428bff95cf9299112, type: 3}
+      - {fileID: 8300000, guid: c914542f9b4cf5e4088485f33429109f, type: 3}
+      - {fileID: 8300000, guid: 89969e178cd0c5d4a9e5b6539690e301, type: 3}
+      - {fileID: 8300000, guid: 6b759dcfb1dd11447991d2534fc840c5, type: 3}
+      - {fileID: 8300000, guid: 3b0c652427fd1564aa86ffbc9ddcca67, type: 3}
+      attackClip:
+      - {fileID: 8300000, guid: 8dd590bb7a3f66e46a3b2c08023b2af1, type: 3}
+      vedioClip:
+      - {fileID: 8300000, guid: 03ce7510829862a48bff2d43ea4c2a8c, type: 3}
+      - {fileID: 8300000, guid: 96d6cac7aa3300b449f4389abfaa9110, type: 3}
+      - {fileID: 8300000, guid: 58a8e17b02c497d49ab52daf7d303508, type: 3}
+    - AttackName: Anbi_Normal_2
+      vfxName: 
+      hitVfxName: FX_hit_04
+      crossTime: 0.1
+      AttackBefore: 0.15
+      AttackCheckOffect: 1
+      AttackSharkeCameraForce: 0.2
+      AttackLast: 0.15
+      AttackAllTime: 0.35
+      AttackForwardOffect: 1
+      AttackUpOffect: 1
+      AttackRadius: 2
+      StopTime: 0.25
+      AttackForce: 5
+      AttackDemage: 10
+      playVFXTime:
+      - 0.2
+      hitClip:
+      - {fileID: 8300000, guid: 4b9c1d6918c16cf4ab07098aa01ef840, type: 3}
+      - {fileID: 8300000, guid: be7658528d067aa4ab612584504b3060, type: 3}
+      - {fileID: 8300000, guid: 723f33a93b83587428bff95cf9299112, type: 3}
+      - {fileID: 8300000, guid: c914542f9b4cf5e4088485f33429109f, type: 3}
+      - {fileID: 8300000, guid: 89969e178cd0c5d4a9e5b6539690e301, type: 3}
+      - {fileID: 8300000, guid: 6b759dcfb1dd11447991d2534fc840c5, type: 3}
+      - {fileID: 8300000, guid: 3b0c652427fd1564aa86ffbc9ddcca67, type: 3}
+      attackClip:
+      - {fileID: 8300000, guid: f6b7d84faf3f2e24590394e6228d3417, type: 3}
+      vedioClip:
+      - {fileID: 8300000, guid: 67962eeb9da990d4880a13891fe5c269, type: 3}
+      - {fileID: 8300000, guid: 4e106c77aaf89954ea2dece7534cbf1a, type: 3}
+      - {fileID: 8300000, guid: 9d2cba0049a938344b1ecf7ba5d1b748, type: 3}
+    - AttackName: Anbi_Normal_3
+      vfxName: 
+      hitVfxName: FX_hit_04
+      crossTime: 0.1
+      AttackBefore: 0.15
+      AttackCheckOffect: 1
+      AttackSharkeCameraForce: 0.05
+      AttackLast: 0.15
+      AttackAllTime: 0.36
+      AttackForwardOffect: 1
+      AttackUpOffect: 1
+      AttackRadius: 2
+      StopTime: 0.03
+      AttackForce: 1
+      AttackDemage: 10
+      playVFXTime:
+      - 0.19
+      - 0.33
+      hitClip:
+      - {fileID: 8300000, guid: 4b9c1d6918c16cf4ab07098aa01ef840, type: 3}
+      - {fileID: 8300000, guid: be7658528d067aa4ab612584504b3060, type: 3}
+      - {fileID: 8300000, guid: 723f33a93b83587428bff95cf9299112, type: 3}
+      - {fileID: 8300000, guid: c914542f9b4cf5e4088485f33429109f, type: 3}
+      - {fileID: 8300000, guid: 89969e178cd0c5d4a9e5b6539690e301, type: 3}
+      - {fileID: 8300000, guid: 6b759dcfb1dd11447991d2534fc840c5, type: 3}
+      - {fileID: 8300000, guid: 3b0c652427fd1564aa86ffbc9ddcca67, type: 3}
+      attackClip:
+      - {fileID: 8300000, guid: 003aa5abacf93a94089bd8c2ef28fff1, type: 3}
+      vedioClip:
+      - {fileID: 8300000, guid: 67962eeb9da990d4880a13891fe5c269, type: 3}
+      - {fileID: 8300000, guid: e53c9bdd76fe4544cb78a5b9a781aa20, type: 3}
+      - {fileID: 8300000, guid: 9d2cba0049a938344b1ecf7ba5d1b748, type: 3}
+      - {fileID: 8300000, guid: 2d3571fbcdfd4ca4d8cf6ce5eb402353, type: 3}
+    - AttackName: Anbi_Normal_4
+      vfxName: 
+      hitVfxName: FX_hit_04
+      crossTime: 0.1
+      AttackBefore: 0.15
+      AttackCheckOffect: 1
+      AttackSharkeCameraForce: 0.03
+      AttackLast: 0.1
+      AttackAllTime: 1
+      AttackForwardOffect: 1
+      AttackUpOffect: 1
+      AttackRadius: 2
+      StopTime: 0.03
+      AttackForce: 1
+      AttackDemage: 10
+      playVFXTime:
+      - 0.14
+      - 0.24
+      - 0.47
+      hitClip:
+      - {fileID: 8300000, guid: 4b9c1d6918c16cf4ab07098aa01ef840, type: 3}
+      - {fileID: 8300000, guid: be7658528d067aa4ab612584504b3060, type: 3}
+      - {fileID: 8300000, guid: 723f33a93b83587428bff95cf9299112, type: 3}
+      - {fileID: 8300000, guid: c914542f9b4cf5e4088485f33429109f, type: 3}
+      - {fileID: 8300000, guid: 89969e178cd0c5d4a9e5b6539690e301, type: 3}
+      - {fileID: 8300000, guid: 6b759dcfb1dd11447991d2534fc840c5, type: 3}
+      - {fileID: 8300000, guid: 3b0c652427fd1564aa86ffbc9ddcca67, type: 3}
+      attackClip:
+      - {fileID: 8300000, guid: 1b64cc9091420f94e8595fbf90572fb1, type: 3}
+      vedioClip:
+      - {fileID: 8300000, guid: 03ce7510829862a48bff2d43ea4c2a8c, type: 3}
+      - {fileID: 8300000, guid: 96d6cac7aa3300b449f4389abfaa9110, type: 3}
+      - {fileID: 8300000, guid: 58a8e17b02c497d49ab52daf7d303508, type: 3}
+      - {fileID: 8300000, guid: 8a24dae1c820e8745906d92c5789b14b, type: 3}
+  playerHitData:
+    AnimationTime: 0.5
+    Hitmult: 0.4
+    Hitmult_Origin: 0.4
+    canDodgeTime: 0.1
+    hitclip:
+    - {fileID: 8300000, guid: 2d3571fbcdfd4ca4d8cf6ce5eb402353, type: 3}
+    - {fileID: 8300000, guid: ae6588949fe94dc4a900cd8eb82d650b, type: 3}
+  playerDodgeData:
+    canDodge: 1
+    animationTime: 0.5
+    stopTimeNum: 0.15
+    resetTimeSpeed: 3
+    isPerfecting: 0
+    perfectDodgeTime: 0.2
+    dodgeCD: 0.35
+    dodgeClip:
+    - {fileID: 8300000, guid: 1b292d51434f0624482dfefda493f788, type: 3}
+    - {fileID: 8300000, guid: 4fe7ab52a66467542b7c634975304f46, type: 3}
+    perfectdodgeClip:
+    - {fileID: 8300000, guid: db36be3957565f342a83fb65ea05dfa6, type: 3}
+  playerQualitydata:
+    currentHealth: 200
+    maxHealth: 200

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: InGame
+  m_EditorClassIdentifier: 
+  m_GroupName: InGame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d75bf802389664b408b02d1ccefe1386
+  m_SerializeEntries:
+  - m_GUID: 4657e38b04c7c4d49a23a6a5c821fb89
+    m_Address: Assets/Res/Perfabs/Bo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7298aa5fa0b739489fe400fbd8635a7
+    m_Address: Assets/Res/Perfabs/YS.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c697cbc4aa4a9c84f8a857d2d67b9ef5
+    m_Address: Assets/Res/Perfabs/Row.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8147f1bc4f6113439a6b0d24bc14f82
+    m_Address: Assets/Res/Perfabs/Shoot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bd9447248b5d76045bd1d69f5e19b2fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 734953c82e2c7f047b330def2d760a18, type: 2}
+    - {fileID: 11400000, guid: 1b8f9cb38c01ae44ab907cb1bb04842b, type: 2}
